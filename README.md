@@ -1,2 +1,2 @@
-# BashTerminal_Banner
-Bash Terminal BANNER
+# Set Stylish Colorful text banner on Linux/Unix Terminal
+Bash Terminal Banner
