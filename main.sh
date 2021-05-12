@@ -1,27 +1,26 @@
 #!/bin/bash
-# Author : HTMLDigger
-# Date : Tuesday, 11 May 2021
-# for Banner examples
+# Author - Anupam Biswas
+# ~/.bashrc: executed by bash(1) for non-login shells.
+# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
+# for examples
 # If not running interactively, don't do anything
 #*************************************************************************************
 
-# Bash color.
 
-sb='\033[0;33m' # Black - Regular
+s='\033[0;33m' # Black - Regular
 g='\033[0;32m' # Green
 r='\033[0m'    # Text Reset
 
-#
 
 clear
+echo -e "╔═══════════════════════════════════════════════════════════════════════════════════╗"
+echo -e "║$g                                                                                $r║
+$r║ $g██$s╗  $g██$s╗$g████████$s╗$g███$s╗   $g███$s╗$g██$s╗     $g██████$s╗ $g██$s╗ $g██████$s╗  $g██████$s╗ $g███████$s╗$g██████$s╗$r  ║
+$r║ $g██$s║  $g██$s║╚══$g██$s╔══╝$g████$s╗ $g████$s║$g██$s║     $g██$s╔══$g██$s╗$g██$s║$g██$s╔════╝ $g██$s╔════╝ $g██$s╔════╝$g██$s╔══$g██$s╗$r ║
+$r║ $g███████$s║   $g██$s║   $g██$s╔$g████$s╔$g██$s║$g██$s║     $g██$s║  $g██$s║$g██$s║$g██$s║  $g███$s╗$g██$s║  $g███$s╗$g█████$s╗  $g██████$s╔╝$r ║
+$r║ $g██$s╔══$g██$s║   $g██$s║   $g██$s║╚$g██$s╔╝$g██$s║$g██$s║     $g██$s║  $g$g██$s║$g██$s║$g██$s║   $g██$s║$g██$s║   $g██$s║$g██$s╔══╝  $g██$s╔══$g██$s╗$r ║
+$r║ $g██$s║  $g██$s║   $g██$s║   $g██$s║ ╚═╝ $g██$s║$g███████$s╗$g██████$s╔╝$g██$s║$s╚$g██████$s╔╝╚$g██████$s╔╝$g███████$s╗$g██$s║  $g██$s║ $r║
+$r║ $s╚═╝  ╚═╝   ╚═╝   ╚═╝     ╚═╝╚══════╝╚═════╝ ╚═╝ ╚═════╝  ╚═════╝ ╚══════╝╚═╝  ╚═╝$r ║"
+echo -e "$r╚═══════════════════════════════════════════════════════════════════════════════════╝"
 
-# Code start.
 
-echo -e "╔════════╗"
-echo -e "║${g}██${r}${sb}╗${r}  ${g}██${r}${sb}╗${r}║"
-echo -e "║${g}██${r}${sb}║${r}  ${g}██${r}${sb}║${r}║"
-echo -e "║${g}███████${r}${sb}║${r}${sb}${r}║"
-echo -e "║${g}██${r}${sb}╔══${r}${g}██${r}${sb}║${r}║"
-echo -e "║${g}██${r}${sb}║  ${r}${g}██${r}${sb}║${r}║"
-echo -e "║${sb}╚═╝  ╚═╝${r}║"
-echo -e "╚════════╝"
